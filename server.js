@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const blogRoutes = require('./routes/blogRoutes');
 
 
-const dbURI = "mongodb+srv://blog_creator:USaWqm2aR8UjL2Ra@blog-creator.mb9hys9.mongodb.net/blog-creator?retryWrites=true&w=majority";
+const dbURI = "Replace this string with your DB string for connecting to the DB";
 
 // express app
 const app = express();
